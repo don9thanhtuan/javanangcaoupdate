@@ -280,3 +280,4 @@ Insert into tbl_Account(username, pass, ten, chucvu, sdt) values('admin','admin'
 Insert into tbl_Account(username, pass, ten, chucvu, sdt) values('tan','tan', N'Hoàng Nhật Tân', 'lt', '0943473854')
 Insert into tbl_Account(username, pass, ten, chucvu, sdt) values('dai','dai', N'Trần Công Đại', 'lt', '0846274372')
 Insert into tbl_Account(username, pass, ten, chucvu, sdt) values('duc','duc', N'Bùi Minh Đức', 'dv', '0948347453')
+ALTER TABLE tbl_HD DROP CONSTRAINT KN_ID_BK_HD;
