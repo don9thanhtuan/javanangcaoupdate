@@ -17,7 +17,8 @@ public class Bill {
     private int SoDem;
     private boolean status;
 
-   
+
+
     public Bill() {
     }
     

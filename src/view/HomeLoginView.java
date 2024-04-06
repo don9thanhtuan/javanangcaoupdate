@@ -238,7 +238,7 @@ public class HomeLoginView extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Dubai", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("Booking.com");
+        jLabel1.setText("      Nhóm 9");
 
         javax.swing.GroupLayout TopLayout = new javax.swing.GroupLayout(Top);
         Top.setLayout(TopLayout);
@@ -879,7 +879,7 @@ public class HomeLoginView extends javax.swing.JFrame {
         loginLayout.setHorizontalGroup(
             loginLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, 699, Short.MAX_VALUE)
+            .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, 702, Short.MAX_VALUE)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, loginLayout.createSequentialGroup()
                 .addGroup(loginLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(loginLayout.createSequentialGroup()
@@ -952,6 +952,11 @@ public class HomeLoginView extends javax.swing.JFrame {
         jLabel31.setText("Username:");
 
         txtUsername.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txtUsername.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtUsernameActionPerformed(evt);
+            }
+        });
 
         jLabel32.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jLabel32.setText("Password:");
@@ -1001,7 +1006,7 @@ public class HomeLoginView extends javax.swing.JFrame {
         signupLayout.setHorizontalGroup(
             signupLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jLabel27, javax.swing.GroupLayout.DEFAULT_SIZE, 647, Short.MAX_VALUE)
-            .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, 699, Short.MAX_VALUE)
+            .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, 702, Short.MAX_VALUE)
             .addGroup(signupLayout.createSequentialGroup()
                 .addGroup(signupLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, signupLayout.createSequentialGroup()
@@ -1106,7 +1111,7 @@ public class HomeLoginView extends javax.swing.JFrame {
             sroomLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, sroomLayout.createSequentialGroup()
                 .addGroup(sroomLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, 699, Short.MAX_VALUE)
+                    .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, 702, Short.MAX_VALUE)
                     .addComponent(jLabel29, javax.swing.GroupLayout.DEFAULT_SIZE, 699, Short.MAX_VALUE)
                     .addComponent(srContent, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(0, 0, 0))
@@ -1151,7 +1156,7 @@ public class HomeLoginView extends javax.swing.JFrame {
                         .addComponent(Sidebar, javax.swing.GroupLayout.PREFERRED_SIZE, 285, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(content, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addComponent(Top, javax.swing.GroupLayout.DEFAULT_SIZE, 996, Short.MAX_VALUE))
+                    .addComponent(Top, javax.swing.GroupLayout.DEFAULT_SIZE, 999, Short.MAX_VALUE))
                 .addGap(6, 6, 6))
         );
         BackgroundLayout.setVerticalGroup(
@@ -1413,6 +1418,10 @@ public class HomeLoginView extends javax.swing.JFrame {
     private void btnBillListMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnBillListMouseClicked
         JOptionPane.showMessageDialog(rootPane, "Ðăng nhập để sử dụng chức năng này!");
     }//GEN-LAST:event_btnBillListMouseClicked
+
+    private void txtUsernameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtUsernameActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtUsernameActionPerformed
 
     /**
      * @param args the command line arguments

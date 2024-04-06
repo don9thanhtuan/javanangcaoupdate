@@ -41,7 +41,7 @@ public class BillView extends javax.swing.JFrame {
         billList = checkinDAO.getListBill();
         model1 = (DefaultTableModel) tblBill.getModel();
         model1.setColumnIdentifiers(new Object[]{
-            "STT", "Mã Hóa Đơn", "Mã Phòng", "Mã Đặt Phòng", "Mã Nhân Viên", "Ngày Check In", "Giờ Check In", "Ngày Chẹck Out", "Giờ Check Out",
+            "STT", "Mã Hóa Đơn", "Mã Phòng", "Mã Đặt Phòng", "Mã Nhân Viên", "Ngày Check In", "Giờ Check In", "Ngày Check Out", "Giờ Check Out",
             "Số Đêm", "Trạng Thái"
         });      
         model2 = (DefaultTableModel) tblService.getModel();
